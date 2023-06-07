@@ -1,0 +1,49 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+* { 
+    margin: 0; 
+    padding: 0; 
+} 
+body { 
+    background-color: #ffffff; 
+} 
+.card { 
+  width: 28%; 
+  display: inline-block; 
+  border-radius: 10px; 
+  background-color: white; 
+  transition:0.4s; 
+  margin: 20px; 
+  border: 1px solid #000000; 
+} 
+ 
+ 
+img { 
+  width: 100%; 
+  border-radius: 20px; 
+} 
+ p { 
+  font-size: 16px; 
+  color: #000000; 
+  margin: 10px 0px; 
+} 
+ 
+ 
+.text { 
+    padding: 20px; 
+  }
+a{ 
+    display: inline-block; 
+    text-decoration:none; 
+    padding: 10px 20px; 
+    color: white; 
+    background-color: #000000cc; 
+    text-transform: uppercase; 
+    } 
+  
+    .card:hover { 
+    width: 30%; 
+    box-shadow: 0 0 10px #000000; 
+  }
